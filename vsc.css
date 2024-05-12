@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2c2c34;
+}
+
+.topbar {
+    padding-left: 125px;
+    padding-right: 125px;
+    display: block;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.topbar1 a {
+    font-family: sans-serif, arial;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    bottom: 10px;
+    float: left;
+    margin-top: 15px;
+}
+
+.topbar2 a {
+    font-family: sans-serif, arial;
+    color: grey;
+    text-decoration: none;
+    font-size: medium;
+    padding-top: 4px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.topbar2 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.topbar3 {
+    width: 140px;
+    height: 50px;
+    background-color: #0563b8;
+    display: inline-block;
+    margin-left: 120px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar3 a {
+    text-decoration: none;
+    color: white;
+    background: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.lupa {
+    margin-left: 80px;
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+}
+
+.stopbar {
+    background-color: #24242c;
+    text-align: center;
+    height: 40px;
+    display: block;
+    color: lightgray;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stopbar a {
+    color: #0563b8;
+    background-color: #24242c;
+}
+.stopbar a:hover {
+    text-decoration: solid;
+}
+.corpo {
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url('imagens/vscode.png');
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: right;
+}
+
+.corpo2 {
+    padding-top: 10%;
+    width: 30%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.corpo2 p {
+    font-size: 17px;
+    color: lightgray;
+}
+.corpo2 p:last-child{
+    font-size: 12px;
+    text-align: center;
+}
+.corpo3 {
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    float: left;
+    background-color: #2c2c34;
+}
+.corpo3 img{
+    float: left;
+    padding-left: 2px;
+}
+.corpo4 {
+    margin-top: 100px;
+    margin-right: 30px;
+    border-radius: 10px black;
+    font-size: small;
+    border: 5px solid #2c2c34;
+    background-color: #24242c;
+    height: 30px;
+
+}
+.corpo4 a{
+    text-decoration: none;
+    color: #0563b8;
+    background-color: #24242c;
+}
+.corpo4 a:hover{
+    text-decoration: underline;
+}
+.corpo2 a{
+    text-decoration: none;
+    color: #0563b8;
+}
+.corpo2 a:hover{
+    text-decoration: underline;
+}
+.mid {
+    background: white;
+    height: 130px;
+    width: 100%;
+    padding-left: 10px;
+}
+.mid1{
+    float: left;
+    padding-left: 30px;
+    margin-left: 40px;
+    margin-right: 35px;
+    background-color: white;
+}
+.down{
+    height: 1000px;
+    background-color: white;
+}
+.down1{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.down1 img{
+    display: block;
+    float: inline-start;
+    padding-top: 90px;
+    background-color: #f4f4f4;
+}
+.down1 p {
+    padding-top: 20px;
+    padding-left: 45%;
+    font-size: 17px;
+    background-color: #f4f4f4;
+    color: black;
+}
+.down1 h1 {
+    padding-left: 45%;
+    padding-top: 90px;
+    background-color: #f4f4f4;
+    color: black;
+}
+.down2{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.down2 img{
+    display: block;
+    float: right;
+    padding-bottom: 90px;
+    background-color: white;
+}
+.down2 p {
+    padding-top: 20px;
+    padding-right: 45%;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+}
+.down2 h1 {
+    padding-right: 45%;
+    padding-top: 90px;
+    background-color: white;
+    color: black;
+}
