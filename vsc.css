@@ -80,9 +80,11 @@
     color: #0563b8;
     background-color: #24242c;
 }
+
 .stopbar a:hover {
     text-decoration: solid;
 }
+
 .corpo {
     height: 500px;
     margin-left: 10%;
@@ -107,10 +109,12 @@
     font-size: 17px;
     color: lightgray;
 }
-.corpo2 p:last-child{
+
+.corpo2 p:last-child {
     font-size: 12px;
     text-align: center;
 }
+
 .corpo3 {
     margin-top: 20px;
     height: 80px;
@@ -118,10 +122,12 @@
     float: left;
     background-color: #2c2c34;
 }
-.corpo3 img{
+
+.corpo3 img {
     float: left;
     padding-left: 2px;
 }
+
 .corpo4 {
     margin-top: 100px;
     margin-right: 30px;
@@ -132,39 +138,57 @@
     height: 30px;
 
 }
-.corpo4 a{
+
+.corpo4 a {
     text-decoration: none;
     color: #0563b8;
     background-color: #24242c;
 }
-.corpo4 a:hover{
+
+.corpo4 a:hover {
     text-decoration: underline;
 }
-.corpo2 a{
+
+.corpo2 a {
     text-decoration: none;
     color: #0563b8;
 }
-.corpo2 a:hover{
+
+.corpo2 a:hover {
     text-decoration: underline;
 }
+
 .mid {
     background: white;
     height: 130px;
     width: 100%;
     padding-left: 10px;
 }
-.mid1{
+
+.mid1 {
     float: left;
     padding-left: 30px;
     margin-left: 40px;
     margin-right: 35px;
+    background-color: unset;
+}
+
+.down {
+    height: 1500px;
     background-color: white;
 }
-.down{
-    height: 1000px;
-    background-color: white;
+
+.down a {
+    text-decoration: none;
+    color: #0563b8;
+    background-color: unset;
 }
-.down1{
+
+.down a:hover {
+    text-decoration: underline;
+}
+
+.down1 {
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
@@ -172,12 +196,14 @@
     height: 400px;
     font-family: Arial, Helvetica, sans-serif
 }
-.down1 img{
+
+.down1 img {
     display: block;
     float: inline-start;
     padding-top: 90px;
     background-color: #f4f4f4;
 }
+
 .down1 p {
     padding-top: 20px;
     padding-left: 45%;
@@ -185,13 +211,15 @@
     background-color: #f4f4f4;
     color: black;
 }
+
 .down1 h1 {
     padding-left: 45%;
     padding-top: 90px;
     background-color: #f4f4f4;
     color: black;
 }
-.down2{
+
+.down2 {
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
@@ -200,12 +228,13 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-.down2 img{
+.down2 img {
     display: block;
     float: right;
-    padding-bottom: 90px;
+    padding-top: 90px;
     background-color: white;
 }
+
 .down2 p {
     padding-top: 20px;
     padding-right: 45%;
@@ -213,9 +242,30 @@
     background-color: white;
     color: black;
 }
+
 .down2 h1 {
     padding-right: 45%;
     padding-top: 90px;
     background-color: white;
     color: black;
+}
+.VSC{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    height: 110px;
+    padding-top: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.VSC1 p{
+    background-color: white;
+    font-size: 20px;
+    background: white;
+    display: block;
+    float: left;
+    padding-left: 90px;
+    padding-top: 20px;
+    text-align: left;
 }
